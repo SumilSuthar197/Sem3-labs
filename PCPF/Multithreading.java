@@ -1,7 +1,7 @@
 public class Multithreading {
     public static void main(String[] args){
         Multi1 obj1=new Multi1();
-        hi obj2=new hi();
+        Multi2 obj2=new Multi2();
         Thread t1=new Thread(obj1);
         Thread t2=new Thread(obj2);
         t1.start();
